@@ -356,7 +356,9 @@ if ((event.body.toLowerCase() == "I love you") || (event.body.toLowerCase() == "
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
        
-      body: `🍂✨${name}✨🍂\n\n${rand}
+      body: `╔═════▓࿇💚࿇▓═════╗
+       
+${name}╚═════▓࿇💚࿇▓═════╝\n\n${rand}
      *★᭄𝗢𝘄𝗻𝗲𝗿 𒁍𝐀𝐲𝐞𝐬𝐡𝐚 𝐤𝐡𝐚𝐧✦`
     }
     return api.sendMessage(msg, threadID, messageID);
