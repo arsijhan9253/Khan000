@@ -359,7 +359,7 @@ if ((event.body.toLowerCase() == "I love you") || (event.body.toLowerCase() == "
       body: `╔═════▓࿇💚࿇▓═════╗
        
 ${name}╚═════▓࿇💚࿇▓═════╝\n\n${rand}
-     *★᭄𝗢𝘄𝗻𝗲𝗿 𒁍𝐀𝐲𝐞𝐬𝐡𝐚 𝐤𝐡𝐚𝐧✦`
+  *★᭄𝗢𝘄𝗻𝗲𝗿 𒁍𝐀𝐲𝐞𝐬𝐡𝐚 𝐤𝐡𝐚𝐧✦`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
